@@ -1,7 +1,7 @@
 input=list(map(int,input("enter numbers:").split()))
 select=input[1::3]
 reverse=select[::-1]
-result=""
+result=[]
 for num in reverse:
     result+=chr(num)
-print(result)
+print("".join(result))
