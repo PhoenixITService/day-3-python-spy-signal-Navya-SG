@@ -1,4 +1,5 @@
-input=input("enter numbers:").split()
+input=input().split()
+input=list(input)
 select=input[1::3]
 reversed=select[::-1]
 result=""
